@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <title>Portfolio</title>
+</head>
+<body> 
+    <!-- NAV BAR -->
+    <nav>
+        <div class="left"> 
+            <a href="/">Ron Joseph</a>
+        </div>
+
+        <div class="center">
+            <a href="#about">
+                <span>About</span>
+            </a>
+
+            <a href="#skills">
+                <span>Skills</span>
+            </a>
+
+        </div>
+
+        <div class="right">
+            <a href="#contact">
+                <span>Contact Me</span>
+            </a>
+        </div>
+
+    </nav>
+
+    <main>
+        <!-- HERO -->
+        <section class="hero-section">
+            <div class="text">
+                <h1>Hi, I'm Ron</h1>
+                <h1>a Software Developer.</h1>
+
+
+                <div class="links">
+                    <a href="http://github.com" target="_blank" rel="noopener no-referrer">
+                        <i class="fa-brands fa-github"></i>
+                        <span>Github</span>
+                    </a>
+
+                    <a href="https://www.linkedin.com/" target="_blank" rel="noopener no-referrer">
+                        <i class="fa-brands fa-linkedin"></i>
+                        <span>LinkedIn</span>
+                    </a>
+                    
+                    <a href="mailto:Ron.Joseph@bbd.co.za">
+                        <i class="fa-solid fa-envelope"></i>
+                        <span>Email</span>
+                    </a>
+                </div>
+            </div>
+            <div class="headshot">
+                <img src="images/headshot.png" alt="Ron Joseph Headshot">
+            </div>
+
+        </section>
+
+        <!-- ABOUT -->
+        <section id="about" class="about-section">
+            <h2>About Me</h2>
+
+            <div class="group">
+                <div class="text">
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolores reprehenderit nulla aperiam repellendus dolorum voluptate minus possimus eligendi quos. Laborum, adipisci ipsam? Hic accusamus veniam necessitatibus mollitia dolores possimus adipisci pariatur. Recusandae veritatis sequi, maxime laboriosam ab consequatur non dignissimos eaque repudiandae perferendis libero, maiores voluptas blanditiis, suscipit nulla molestias?</p>
+                </div>
+    
+                <div class="headshot">
+                    <img src="images/headshot.png" alt="Ron Joseph Headshot">
+                </div>
+            </div>
+
+        </section>
+
+        <!-- SKILLS -->
+        <section id="skills" class="skills-section">
+            <h2>Skills</h2>
+            <div class="text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis enim, fuga fugiat est impedit provident iusto eius tempore asperiores quo neque, voluptatibus sapiente? Repudiandae animi facere pariatur fuga labore nam repellendus libero facilis assumenda soluta. Neque dolores accusantium, asperiores nihil exercitationem id quis doloremque quisquam necessitatibus quas quaerat provident ex!
+            </div>
+
+            <div class="cells">
+                <div class="cell">
+                    <img src="images/html-logo.webp" alt="HTML logo">
+                    <span>HTML</span>
+                </div>
+
+                <div class="cell">
+                    <img src="images/css-logo.webp" alt="CSS logo">
+                    <span>CSS</span>
+                </div>
+
+                <div class="cell">
+                    <img src="images/javascript-logo.webp" alt="Javascript logo">
+                    <span>Javascipt</span>
+                </div>
+
+                <div class="cell">
+                    <img src="images/node-logo.webp" alt="NodeJs logo">
+                    <span>NodeJs</span>
+                </div>
+
+                <div class="cell">
+                    <img src="images/python-logo.webp" alt="Python logo">
+                    <span>Python</span>
+                </div>
+            </div>
+        </section>
+
+        <!-- CONTACT -->
+        <section id="contact" class="contact-section">
+            <h2>Contact Me</h2>
+            <div class="group">
+                <div class="text">
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repudiandae, esse impedit incidunt veniam quisquam similique obcaecati commodi. Minus quam suscipit quidem soluta asperiores debitis labore similique repellat sequi rerum dicta tempore, cum minima! Eaque hic molestiae veniam! Soluta distinctio, quis, odio porro ipsam aliquid illum hic, vel magnam error nam!
+                </div>
+
+                <form >
+                    <label for="name">Name</label>
+                    <input type="text" id="name">
+
+                    <label for="email">Email</label>
+                    <input type="text" id="email">
+
+                    <label for="message">Message</label>
+                    <textarea id="message" cols="30" rows="10"></textarea>
+
+                    <button type="submit">Send Message</button>
+                </form>
+            </div>
+
+        </section>
+
+    </main>
+</body>
+</html>
