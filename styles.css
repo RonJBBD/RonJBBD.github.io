@@ -295,7 +295,21 @@ footer .links {
 @media (max-width: 740px) {
     /* NAV BAR */
     nav {
-        padding: 0 20px;
+        padding: 0 10px;
+    }
+
+
+    nav .right a {
+        margin: 0 1px;
+        color: var(--text-color);
+        background-color: var(--background-color);
+        padding: 1px 1px;
+        border-radius: 5px;
+        /* font-size: 10px; */
+    }
+
+    nav .right a span {
+        margin-left: 1px;
     }
 
     /* HERO */
@@ -333,6 +347,19 @@ footer .links {
 
     .skills-section .cell .cell span {
         font-size: 16px;
+    }
+
+    .skills-section .cells .cell {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 5px;
+    
+        width: 150px;;
+        padding: 10px 20px;
+        margin: 5px;
+        border: 1.5px solid #d3d3d3;
+        border-radius: 5px;
     }
 
     /* CONTACT */
