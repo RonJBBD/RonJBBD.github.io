@@ -16,57 +16,52 @@
 <body> 
     <!-- NAV BAR -->
     <nav>
-        <div class="left"> 
-            <a href="/">Ron Joseph</a>
-        </div>
+        <a href="/" class="nav-name">Ron Joseph</a>
 
-        <div class="center">
-            <a href="#about">
-                <span>About</span>
-            </a>
+        <ul class="nav-options">
+            <li><a href="#about">About</a></li>
 
-            <a href="#skills">
-                <span>Skills</span>
-            </a>
+            <li><a href="#skills">Skills</a></li>
+        </ul>
 
-        </div>
-
-        <div class="right">
-            <a href="#contact">
-                <span>Contact Me</span>
-            </a>
-        </div>
+        <a href="#contact" class="nav-contact">Contact Me</a>
 
     </nav>
 
     <main>
         <!-- HERO -->
         <section class="hero-section">
-            <div class="text">
+            <header class="text">
                 <h1>Hi, I'm Ron</h1>
                 <h1>a Software Developer.</h1>
 
-
-                <div class="links">
-                    <a href="https://github.com/RonJBBD" target="_blank" rel="noopener no-referrer">
-                        <i class="fa-brands fa-github"></i>
-                        <span>Github</span>
-                    </a>
-
-                    <a href="https://za.linkedin.com/in/ron-joseph-23a3b0205" target="_blank" rel="noopener no-referrer">
-                        <i class="fa-brands fa-linkedin"></i>
-                        <span>LinkedIn</span>
-                    </a>
+                <ul class="links">
+                    <li>
+                        <a href="https://github.com/RonJBBD" target="_blank" rel="noopener no-referrer">
+                            <i class="fa-brands fa-github"></i>
+                            Github
+                        </a>
+                    </li>
                     
-                    <a href="mailto:Ron.Joseph@bbd.co.za">
-                        <i class="fa-solid fa-envelope"></i>
-                        <span>Email</span>
-                    </a>
-                </div>
-            </div>
-            <div class="headshot">
-                <img src="images/Ron1.jpg" alt="Ron Joseph Headshot">
-            </div>
+                    <li>
+                        <a href="https://za.linkedin.com/in/ron-joseph-23a3b0205" target="_blank" rel="noopener no-referrer">
+                            <i class="fa-brands fa-linkedin"></i>
+                            LinkedIn
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="mailto:Ron.Joseph@bbd.co.za">
+                            <i class="fa-solid fa-envelope"></i>
+                            Email
+                        </a>
+                    </li>
+                </ul>
+            </header>
+
+            <figure class="headshot">
+                <img src="images/RonHeadshot.jpg" alt="Ron Joseph Headshot">
+            </figure>
 
         </section>
 
@@ -74,79 +69,76 @@
         <section id="about" class="about-section">
             <h2>About Me</h2>
 
-            <div class="group">
-                <div class="text">
-                    <p>I’m a Software Developer currently part of the Graduate Programme at BBD. With a degree in Computer Engineering, I’m passionate about designing and building reliable, efficient software solutions. My approach to development focuses on problem-solving, continuous learning, and delivering impactful results.</p>
-                    <p>Outside of work, I enjoy playing chess, exploring board and card games, diving into video games, and watching anime. These hobbies not only fuel my creativity but also sharpen my strategic thinking and attention to detail—skills I bring into my professional life.</p>
-                    <p>I’m always looking for opportunities to grow and take on new challenges. Let’s connect!</p>
-                </div>
-    
-                <div class="headshot">
-                    <img src="images/Ron2.jpg" alt="Ron Joseph Full Body">
-                </div>
-            </div>
+            <article class="about-me-text-img">
+                <figure class="fullbody">
+                    <img src="images/RonFullBody.jpg" alt="Ron Joseph Full Body">
+                </figure>
+
+                
+                <p>I’m a Software Developer currently part of the Graduate Programme at BBD. With a degree in Computer Engineering, I’m passionate about designing and building reliable, efficient software solutions. My approach to development focuses on problem-solving, continuous learning, and delivering impactful results. Outside of work, I enjoy playing chess, exploring board and card games, diving into video games, and watching anime. These hobbies not only fuel my creativity but also sharpen my strategic thinking and attention to detail—skills I bring into my professional life. I’m always looking for opportunities to grow and take on new challenges. Let’s connect!</p>
+
+            </article>            
 
         </section>
 
         <!-- SKILLS -->
         <section id="skills" class="skills-section">
             <h2>Skills</h2>
-            <div class="text">
-                <p>I have a strong foundation in programming, with experience in C++, Python, Java, JavaScript, HTML, and CSS. My skill set spans both front-end and back-end development, allowing me to create dynamic, user-friendly applications and efficient, scalable systems. I’m always eager to learn new technologies and continuously refine my expertise to deliver high-quality solutions.</p>
-            </div>
+            
+            <p>I have a strong foundation in programming, with experience in C++, Python, Java, JavaScript, HTML, and CSS. My skill set spans both front-end and back-end development, allowing me to create dynamic, user-friendly applications and efficient, scalable systems. I’m always eager to learn new technologies and continuously refine my expertise to deliver high-quality solutions.</p>
 
-            <div class="cells">
-                <div class="cell">
+            <ul class="skills-cells">
+                <li>
                     <img src="images/html-logo.webp" alt="HTML logo">
-                    <span>HTML</span>
-                </div>
+                    HTML
+                </li>
 
-                <div class="cell">
+                <li>
                     <img src="images/css-logo.webp" alt="CSS logo">
-                    <span>CSS</span>
-                </div>
+                    CSS
+                </li>
 
-                <div class="cell">
+                <li>
                     <img src="images/javascript-logo.webp" alt="Javascript logo">
-                    <span>Javascipt</span>
-                </div>
+                    Javascipt
+                </li>
 
-                <div class="cell">
+                <li>
                     <img src="images/python-logo.webp" alt="Python logo">
-                    <span>Python</span>
-                </div>
+                    Python
+                </li>
 
-                <div class="cell">
+                <li>
                     <img src="images/cplusplus-logo.png" alt="C++ logo">
-                    <span>C++</span>
-                </div>
+                    C++
+                </li>
 
-                <div class="cell">
+                <li>
                     <img src="images/java-logo.webp" alt="Java logo">
-                    <span>Java</span>
-                </div>
+                    Java
+                </li>
 
-            </div>
+            </ul>
+
         </section>
 
         <!-- CONTACT -->
         <section id="contact" class="contact-section">
             <h2>Contact Me</h2>
-            <div class="group">
-                <div class="text">
-                    <p>Feel free to reach out if you’d like to collaborate, discuss opportunities, or just connect. You can find me on GitHub and LinkedIn, or send me an email directly. Alternatively, you can use the form below to send me a message—I’ll get back to you as soon as I can. Looking forward to hearing from you!</p>
-                </div>
+            
+            <div class="contact-content">
+                <p>Feel free to reach out if you’d like to collaborate, discuss opportunities, or just connect. You can find me on GitHub and LinkedIn, or send me an email directly. Alternatively, you can use the form below to send me a message—I’ll get back to you as soon as I can. Looking forward to hearing from you!</p>
 
                 <form >
                     <label for="name">Name</label>
                     <input type="text" id="name">
-
+    
                     <label for="email">Email</label>
                     <input type="text" id="email">
-
+    
                     <label for="message">Message</label>
                     <textarea id="message" cols="30" rows="10"></textarea>
-
+    
                     <button type="submit">Send Message</button>
                 </form>
             </div>
@@ -155,18 +147,28 @@
 
     </main>
 </body>
-<footer>
-    <div class="links">
-        <a href="https://github.com/RonJBBD" target="_blank" rel="noopener no-referrer">
-            <i class="fa-brands fa-github"></i>
-        </a>
 
-        <a href="https://za.linkedin.com/in/ron-joseph-23a3b0205" target="_blank" rel="noopener no-referrer">
-            <i class="fa-brands fa-linkedin"></i>
-        </a>
+<footer>
+    <ul class="footer-links">
+        <li>
+            <a href="https://github.com/RonJBBD" target="_blank" rel="noopener no-referrer">
+                <i class="fa-brands fa-github"></i>
+            </a>
+        </li>
+
+        <li>
+            <a href="https://za.linkedin.com/in/ron-joseph-23a3b0205" target="_blank" rel="noopener no-referrer">
+                <i class="fa-brands fa-linkedin"></i>
+            </a>
+        </li>
+
+        <li>
+            <a href="mailto:Ron.Joseph@bbd.co.za">
+                <i class="fa-solid fa-envelope"></i>
+            </a>
+        </li>
+    </ul>        
         
-        <a href="mailto:Ron.Joseph@bbd.co.za">
-            <i class="fa-solid fa-envelope"></i>
-        </a>
 </footer>
+
 </html>
