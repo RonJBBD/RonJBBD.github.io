@@ -296,13 +296,9 @@ nav .nav-contact:hover {
 
 /* CONTACT ME */
 
+
 .contact-section {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-    padding: 3vi 5vi;
+    padding: 3vi 0;
 }
 
 .contact-section h2{
@@ -317,9 +313,9 @@ nav .nav-contact:hover {
     text-align: left;
     align-items: left;
     flex-wrap: wrap;
-    
-
-   
+    padding: 1vi 5vi;
+    gap: 2vi;
+    flex-wrap: wrap;
 }
 
 .contact-section .contact-content p {
@@ -339,6 +335,7 @@ nav .nav-contact:hover {
     align-items: left;
     flex-direction: column;
     padding: 1vi 5vi;
+    text-align: left;
 }
 
 
