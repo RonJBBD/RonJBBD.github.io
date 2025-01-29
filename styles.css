@@ -2,6 +2,7 @@
     --text-color: #1a1c20;
     --link-color: #4a76ee;
     --background-color: #eeeff1;
+    --translate-y: clamp(1rem, 7vi, 2.7rem);
 }
 
 * {
@@ -104,11 +105,66 @@ nav .nav-contact:hover {
 
 }
 
-.hero-section .text h1 {
+.hero-section .text .hi-text {
+    font-size: clamp(1.2rem, 9vi, 2.9rem);
+    color: var(--text-color);
+    font-weight: 600;
+}
+
+
+.hero-section .text .animation-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    white-space: nowrap;
     font-size: clamp(1rem, 7vi, 2.7rem);
     color: var(--text-color);
     font-weight: 600;
-    min-inline-size: 50vi;
+    gap: 2vi;
+}
+
+.hero-section .text .animation-container .a-alone {
+    flex: 1;
+    text-align: center;
+    font-size: clamp(1rem, 7vi, 2.7rem);
+    color: var(--text-color);
+    font-weight: 600;
+}
+
+.hero-section .text .animation-container .animation-box {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: calc(1.5*clamp(1rem, 7vi, 2.7rem));
+    box-shadow: 0 -1vi 1vi -1vi darkgrey, 0 1vi 1vi -1vi darkgrey;
+    overflow: hidden;
+}
+
+.hero-section .text .animation-container .animation-box .self-titles {
+    list-style: none;
+    flex: 5;
+    text-align: center;
+    align-items: center;
+    justify-content: top;
+
+    animation: scroll 6s infinite;
+}
+
+@keyframes scroll {
+    
+
+    0%, 15%, 100% {
+        transform: translate3d(0,calc(1.5*var(--translate-y)),0);
+    }
+    25%, 45% {
+        transform: translate3d(0, 0, 0);
+    }
+
+    55%, 70% {
+        transform: translate3d(0, calc(-1.5*var(--translate-y)), 0);
+    }
+    
 }
 
 .hero-section .headshot {
@@ -131,7 +187,7 @@ nav .nav-contact:hover {
 }
 
 .hero-section .text .links li {
-    padding: 0.5vi 0.5vi;
+    padding: 1vi 0.5vi;
 }
 
 .hero-section .text .links li a {
